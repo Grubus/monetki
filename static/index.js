@@ -35,7 +35,7 @@ function getCoins(){
 }
 
 function generateCoinsTable(coins){
-    let table = document.getElementsByClassName("table_content")[0];
+        let table = document.getElementsByClassName("table_content")[0];
     table.innerHTML = "";
     if(!coins) return;      
     coins.forEach( coin => {
