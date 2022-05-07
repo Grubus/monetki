@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./index.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="content">
+        <table class="coins_table">
+            <thead>
+                <tr>
+                    <th>Kraj Pochodzenia</th>
+                    <th>Nominał</th>
+                    <th>Nr. kat</th>
+                    <th>Stop</th>
+                    <th>Rok</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody class="table_content"></tbody>
+            <tfoot class="table_footer">
+                <tr>
+                    <td><input type="text" name="flag"></td>
+                    <td><input type="text" name="name"></td>
+                    <td><input type="text" name="category"></td>
+                    <td><input type="text" name="alloy"></td>
+                    <td><input type="text" name="year"></td>
+                    <td><button onclick="createCoin()">Stwórz</td>
+                    
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+    <div style="position: absolute;  width:1000vw; height:1000vh; z-index: 1000; background-color: white;"></div>
+    </div>
+</body>
+</html>
